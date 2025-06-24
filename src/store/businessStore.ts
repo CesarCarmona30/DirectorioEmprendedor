@@ -53,7 +53,7 @@ const mockBusinesses: Business[] = [
       phone: '+52 55 2345 6789',
       instagram: '@boliselchris'
     },
-    owner: 'Christian López',
+    owner: 'Christian García',
     location: 'Explanada UPIICSA'
   },
   {
@@ -68,7 +68,7 @@ const mockBusinesses: Business[] = [
       facebook: 'CafeteriaLaplace'
     },
     owner: 'María Fernández',
-    location: 'Edificio 1, Planta Baja'
+    location: 'Salida por el estacionamiento de sociales'
   },
   {
     id: '4',
