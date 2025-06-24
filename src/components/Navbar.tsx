@@ -43,7 +43,7 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => {
                 <button
                   key={item.id}
                   onClick={() => handleNavClick(item.id)}
-                  className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+                  className="text-gray-700 hover:text-guinda px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
                 >
                   {item.name}
                 </button>
@@ -55,7 +55,7 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => {
           <div className="md:hidden">
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="text-gray-700 hover:text-blue-600 p-2"
+              className="text-gray-700 hover:text-guinda p-2"
             >
               {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -70,7 +70,7 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => {
                 <button
                   key={item.id}
                   onClick={() => handleNavClick(item.id)}
-                  className="text-gray-700 hover:text-blue-600 block w-full text-left px-3 py-2 rounded-md text-base font-medium transition-colors duration-200"
+                  className="text-gray-700 hover:text-guinda block w-full text-left px-3 py-2 rounded-md text-base font-medium transition-colors duration-200"
                 >
                   {item.name}
                 </button>

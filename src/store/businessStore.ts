@@ -24,21 +24,21 @@ const mockBusinesses: Business[] = [
     id: '1',
     name: 'TonyPeluches',
     category: 'Regalos',
-    description: 'Peluches artesanales hechos a mano por estudiantes, personalizados bajo pedido.',
+    description: 'Peluches bonitos y lindos, de lo más popular y pedido.',
     createdAt: new Date('2024-01-10')
   },
   {
     id: '2',
     name: 'Bolis el Chris',
     category: 'Comida',
-    description: 'Venta de paletas y bolis de sabores naturales, ideales para eventos y reuniones.',
+    description: 'Venta de paletas y bolis de sabores naturales y exóticos😜.',
     createdAt: new Date('2024-01-12')
   },
   {
     id: '3',
-    name: 'Campus Coffee Co.',
+    name: 'Cafetería Laplace',
     category: 'Comida',
-    description: 'Café artesanal tostado por estudiantes, con granos de origen responsable.',
+    description: 'Café artesanal, con granos de origen responsable.',
     createdAt: new Date('2024-01-15')
   },
   {
@@ -57,9 +57,9 @@ const mockBusinesses: Business[] = [
   },
   {
     id: '6',
-    name: 'Study Buddy Services',
+    name: 'Connect+',
     category: 'Servicios',
-    description: 'Apoyo académico: toma de apuntes, asistencia en investigación y coordinación de grupos de estudio.',
+    description: 'Planes para diversas plataformas, desde entretenimiento con Netflix y HBO, hasta productividad con GPT-4o Plus.',
     createdAt: new Date('2024-02-10')
   },
   {
