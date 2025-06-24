@@ -8,14 +8,14 @@ const CategoriesSection: React.FC = () => {
 
   // Define categories with their icons and calculate counts
   const categories = [
-    { name: 'Food', icon: '🍕' },
-    { name: 'Technology', icon: '💻' },
-    { name: 'Fashion', icon: '👕' },
-    { name: 'Services', icon: '🛠️' },
-    { name: 'Education', icon: '📚' },
-    { name: 'Health', icon: '⚕️' },
-    { name: 'Art', icon: '🎨' },
-    { name: 'Sports', icon: '⚽' }
+    { name: 'Comida', icon: '🍕' },
+    { name: 'Tecnología', icon: '💻' },
+    { name: 'Ropa', icon: '👕' },
+    { name: 'Servicios', icon: '🛠️' },
+    { name: 'Asesorias', icon: '📚' },
+    { name: 'Salud', icon: '⚕️' },
+    { name: 'Arte', icon: '🎨' },
+    { name: 'Deporte', icon: '⚽' }
   ];
 
   // Calculate business count for each category
@@ -43,10 +43,10 @@ const CategoriesSection: React.FC = () => {
         {/* Section header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Browse by Category
+            Buscar por categoría
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Explore student businesses across different industries and find exactly what you're looking for
+            Explora entre los distintos emprendimientos y encuentra lo que estás buscando
           </p>
         </div>
 
@@ -60,7 +60,7 @@ const CategoriesSection: React.FC = () => {
                 : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
             }`}
           >
-            Show All Categories
+            Mostrar todas las categorías
           </button>
         </div>
         
@@ -82,7 +82,7 @@ const CategoriesSection: React.FC = () => {
         {selectedCategory && (
           <div className="mt-8 text-center">
             <p className="text-gray-600">
-              Currently showing <span className="font-semibold text-blue-600">{selectedCategory}</span> businesses
+              Mostrando los negocios de <span className="font-semibold text-blue-600">{selectedCategory}</span>
             </p>
           </div>
         )}

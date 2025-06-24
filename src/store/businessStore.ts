@@ -23,35 +23,35 @@ const mockBusinesses: Business[] = [
   {
     id: '1',
     name: 'Campus Coffee Co.',
-    category: 'Food',
+    category: 'Comida',
     description: 'Artisanal coffee roasted by students, for students. Ethically sourced beans with a focus on sustainability.',
     createdAt: new Date('2024-01-15')
   },
   {
     id: '2',
-    name: 'TechTutor Hub',
-    category: 'Technology',
+    name: 'TechTutor ',
+    category: 'Tecnología',
     description: 'Peer-to-peer coding tutoring platform connecting students across different skill levels.',
     createdAt: new Date('2024-02-01')
   },
   {
     id: '3',
     name: 'EcoThreads',
-    category: 'Fashion',
+    category: 'Ropa',
     description: 'Sustainable clothing brand creating trendy pieces from recycled materials.',
     createdAt: new Date('2024-01-28')
   },
   {
     id: '4',
     name: 'Study Buddy Services',
-    category: 'Services',
+    category: 'Servicios',
     description: 'Academic support services including note-taking, research assistance, and study group coordination.',
     createdAt: new Date('2024-02-10')
   },
   {
     id: '5',
     name: 'Healthy Bites',
-    category: 'Food',
+    category: 'Comida',
     description: 'Nutritious meal prep service designed specifically for busy students and their budgets.',
     createdAt: new Date('2024-02-05')
   }

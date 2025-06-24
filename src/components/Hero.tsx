@@ -16,16 +16,16 @@ const Hero: React.FC<HeroProps> = ({ onGetStarted }) => {
         <div className="text-center">
           {/* Main heading */}
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 animate-fade-in">
-            Discover Amazing
+            Descubre los increíbles
             <span className="block bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Student Businesses
+              emprendimientos estudiantiles
             </span>
           </h1>
           
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto animate-fade-in">
-            Connect with innovative student entrepreneurs and discover unique businesses 
-            created by your peers. From tech startups to local services, find it all here.
+            Conecta con los negocios de los compañeros,
+            desde comidas y bebidas, hasta servicios de asesoría.
           </p>
           
           {/* CTA Button */}
@@ -33,23 +33,23 @@ const Hero: React.FC<HeroProps> = ({ onGetStarted }) => {
             onClick={onGetStarted}
             className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 animate-fade-in"
           >
-            Get Started
+            Explorar emprendimientos
             <ArrowRight className="ml-2" size={20} />
           </button>
           
           {/* Stats */}
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-2xl mx-auto">
             <div className="text-center animate-fade-in">
-              <div className="text-3xl font-bold text-blue-600">50+</div>
-              <div className="text-gray-600">Student Businesses</div>
+              <div className="text-3xl font-bold text-blue-600">+20</div>
+              <div className="text-gray-600">Negocios</div>
             </div>
             <div className="text-center animate-fade-in">
               <div className="text-3xl font-bold text-purple-600">8</div>
-              <div className="text-gray-600">Categories</div>
+              <div className="text-gray-600">Categorias</div>
             </div>
             <div className="text-center animate-fade-in">
-              <div className="text-3xl font-bold text-green-600">500+</div>
-              <div className="text-gray-600">Students Connected</div>
+              <div className="text-3xl font-bold text-green-600">+200</div>
+              <div className="text-gray-600">Estudiantes conectados</div>
             </div>
           </div>
         </div>

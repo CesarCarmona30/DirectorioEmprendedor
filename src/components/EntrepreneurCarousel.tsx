@@ -31,10 +31,10 @@ const EntrepreneurCarousel: React.FC = () => {
         <div className="flex justify-between items-center mb-8">
           <div>
             <h2 className="text-3xl font-bold text-gray-900">
-              {selectedCategory ? `${selectedCategory} Businesses` : 'Featured Student Businesses'}
+              {selectedCategory ? `${selectedCategory} ` : 'Emprendimientos'}
             </h2>
             <p className="text-gray-600 mt-2">
-              Discover innovative ventures created by talented students
+              Descubre los negocios estudiantiles
             </p>
           </div>
           
@@ -71,10 +71,10 @@ const EntrepreneurCarousel: React.FC = () => {
           {businesses.length === 0 && selectedCategory && (
             <div className="text-center py-12">
               <p className="text-gray-500 text-lg">
-                No businesses found in the {selectedCategory} category yet.
+                Aún no hay negocios registrados en la categoría {selectedCategory}.
               </p>
               <p className="text-gray-400 text-sm mt-2">
-                Be the first to register a business in this category!
+                Se el primero en registrarse en esta categoría!
               </p>
             </div>
           )}

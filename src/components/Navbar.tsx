@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
@@ -11,9 +10,9 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navItems = [
-    { name: 'Home', id: 'home' },
-    { name: 'Categories', id: 'categories' },
-    { name: 'Register', id: 'register' }
+    { name: 'Inicio', id: 'home' },
+    { name: 'Categorias', id: 'categories' },
+    { name: 'Registrarse', id: 'register' }
   ];
 
   const handleNavClick = (sectionId: string) => {
@@ -28,7 +27,7 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => {
           {/* Logo/Title */}
           <div className="flex-shrink-0">
             <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              StudentVentures
+              Emprendedores UPIICSA
             </h1>
           </div>
 
