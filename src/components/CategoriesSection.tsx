@@ -14,7 +14,7 @@ const CategoriesSection: React.FC = () => {
     { name: 'Servicios', icon: '🛠️' },
     { name: 'Asesorias', icon: '📚' },
     { name: 'Salud', icon: '⚕️' },
-    { name: 'Arte', icon: '🎨' },
+    { name: 'Regalos', icon: '🎁' },
     { name: 'Deporte', icon: '⚽' }
   ];
 
