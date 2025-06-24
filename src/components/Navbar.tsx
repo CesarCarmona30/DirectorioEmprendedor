@@ -31,7 +31,7 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => {
               alt="Emprende UPIICSA logo"
               className="h-10 w-10"
             />
-            <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            <h1 className="text-2xl font-bold text-guinda">
               Emprende UPIICSA
             </h1>
           </div>

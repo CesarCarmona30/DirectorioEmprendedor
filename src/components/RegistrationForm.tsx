@@ -158,7 +158,7 @@ const RegistrationForm: React.FC = () => {
                 className={`w-full py-4 rounded-lg font-semibold text-white transition-all duration-200 ${
                   isSubmitting
                     ? 'bg-gray-400 cursor-not-allowed'
-                    : 'bg-gradient-to-r from-blue-600 to-purple-600 hover:shadow-lg transform hover:scale-105'
+                    : 'bg-guinda hover:shadow-lg transform hover:scale-105'
                 }`}
               >
                 {isSubmitting ? 'Registrando...' : 'Registrar Negocio'}
@@ -167,9 +167,9 @@ const RegistrationForm: React.FC = () => {
           </form>
 
           {/* Additional info */}
-          <div className="mt-6 p-4 bg-blue-50 rounded-lg">
-            <p className="text-sm text-blue-800">
-              <strong>Note:</strong> Tu negocio aparecerá inmediatamente después del registro. 
+          <div className="mt-6 p-4 bg-gray-50 rounded-lg">
+            <p className="text-sm text-guinda">
+              <strong>Nota:</strong> Tu negocio aparecerá inmediatamente después del registro. 
               Asegúrate de que la información sea la correcta antes de envíar el formulario.
             </p>
           </div>

@@ -56,8 +56,8 @@ const CategoriesSection: React.FC = () => {
             onClick={handleShowAll}
             className={`px-6 py-3 rounded-lg font-medium transition-all duration-200 ${
               !selectedCategory
-                ? 'bg-blue-600 text-white shadow-md'
-                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                ? 'bg-guinda text-white shadow-md'
+                : 'bg-gray-100 text-guinda hover:bg-gray-200'
             }`}
           >
             Mostrar todas las categorías
@@ -82,7 +82,7 @@ const CategoriesSection: React.FC = () => {
         {selectedCategory && (
           <div className="mt-8 text-center">
             <p className="text-gray-600">
-              Mostrando los negocios de <span className="font-semibold text-blue-600">{selectedCategory}</span>
+              Mostrando los negocios de <span className="font-semibold text-guinda">{selectedCategory}</span>
             </p>
           </div>
         )}

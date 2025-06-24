@@ -48,8 +48,8 @@ const BusinessCard: React.FC<BusinessCardProps> = ({ business }) => {
       
       {/* Action button */}
       <div className="mt-4">
-        <button className="text-blue-600 hover:text-blue-800 font-medium text-sm transition-colors duration-200">
-          Learn More →
+        <button className="text-gray-600 hover:text-guinda font-medium text-sm transition-colors duration-200">
+          Ver más →
         </button>
       </div>
     </div>

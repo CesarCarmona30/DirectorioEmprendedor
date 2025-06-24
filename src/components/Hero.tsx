@@ -17,7 +17,7 @@ const Hero: React.FC<HeroProps> = ({ onGetStarted }) => {
           {/* Main heading */}
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 animate-fade-in">
             Descubre los increíbles
-            <span className="block bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            <span className="block text-guinda">
               emprendimientos estudiantiles
             </span>
           </h1>
@@ -31,7 +31,7 @@ const Hero: React.FC<HeroProps> = ({ onGetStarted }) => {
           {/* CTA Button */}
           <button
             onClick={onGetStarted}
-            className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 animate-fade-in"
+            className="inline-flex items-center px-8 py-4 bg-guinda text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200 animate-fade-in"
           >
             Explorar emprendimientos
             <ArrowRight className="ml-2" size={20} />
@@ -40,15 +40,15 @@ const Hero: React.FC<HeroProps> = ({ onGetStarted }) => {
           {/* Stats */}
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-2xl mx-auto">
             <div className="text-center animate-fade-in">
-              <div className="text-3xl font-bold text-blue-600">+15</div>
+              <div className="text-3xl font-bold text-guinda">+15</div>
               <div className="text-gray-600">Negocios</div>
             </div>
             <div className="text-center animate-fade-in">
-              <div className="text-3xl font-bold text-purple-600">8</div>
+              <div className="text-3xl font-bold text-guinda">8</div>
               <div className="text-gray-600">Categorias</div>
             </div>
             <div className="text-center animate-fade-in">
-              <div className="text-3xl font-bold text-green-600">+100</div>
+              <div className="text-3xl font-bold text-guinda">+100</div>
               <div className="text-gray-600">Estudiantes conectados</div>
             </div>
           </div>
