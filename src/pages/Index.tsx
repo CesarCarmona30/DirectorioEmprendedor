@@ -47,26 +47,26 @@ const Index = () => {
       <section className="py-16 bg-gradient-to-r from-blue-600 to-purple-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
-            Join the Student Entrepreneur Community
+            Únete a la comunidad de estudiantes emprendedores
           </h2>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Connect with like-minded student entrepreneurs, share resources, and grow your business together
+            Conecta con otros emprendedores, comparte recursos y haz crecer tu negocio.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             <div className="text-center">
               <div className="text-4xl mb-4">🤝</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Network</h3>
-              <p className="text-blue-100">Connect with fellow student entrepreneurs</p>
+              <h3 className="text-xl font-semibold text-white mb-2">Conecta</h3>
+              <p className="text-blue-100">Relaciónate con otros emprendedores estudiantiles.</p>
             </div>
             <div className="text-center">
               <div className="text-4xl mb-4">🚀</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Grow</h3>
-              <p className="text-blue-100">Scale your business with community support</p>
+              <h3 className="text-xl font-semibold text-white mb-2">Crece</h3>
+              <p className="text-blue-100">Haz crecer tu emprendimiento con el apoyo de la comunidad</p>
             </div>
             <div className="text-center">
               <div className="text-4xl mb-4">💡</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Innovate</h3>
-              <p className="text-blue-100">Share ideas and learn from others</p>
+              <h3 className="text-xl font-semibold text-white mb-2">Innova</h3>
+              <p className="text-blue-100">Comparte ideas y aprende junto a los demás</p>
             </div>
           </div>
         </div>
@@ -80,14 +80,14 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent mb-4">
-              StudentVentures
+              Emprendedores UPIICSA
             </h3>
             <p className="text-gray-400 mb-6">
-              Empowering the next generation of entrepreneurs
+              Apoyando a los emprendedores de nuestra institución.
             </p>
             <div className="border-t border-gray-800 pt-6">
               <p className="text-gray-500 text-sm">
-                © 2024 StudentVentures. Built with ❤️ for student entrepreneurs.
+                © 2024. Hecho con ❤️ para la comunidad de emprendedores.
               </p>
             </div>
           </div>

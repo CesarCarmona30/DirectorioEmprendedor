@@ -13,8 +13,8 @@ const RegistrationForm: React.FC = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const categories = [
-    'Food', 'Technology', 'Fashion', 'Services', 
-    'Education', 'Health', 'Art', 'Sports'
+    'Comida', 'Tecnología', 'Ropa', 'Servicios', 
+    'Asesorias', 'Salud', 'Arte', 'Deportes'
   ];
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -31,8 +31,8 @@ const RegistrationForm: React.FC = () => {
     // Basic validation
     if (!formData.name.trim() || !formData.category || !formData.description.trim()) {
       toast({
-        title: "Missing Information",
-        description: "Please fill in all fields before submitting.",
+        title: "Información requerida",
+        description: "Por favor, llena todos los campos.",
         variant: "destructive"
       });
       return;
@@ -60,14 +60,14 @@ const RegistrationForm: React.FC = () => {
 
       // Show success message
       toast({
-        title: "Business Registered!",
-        description: "Your business has been successfully added to the directory.",
+        title: "Negocio Registrado!",
+        description: "El emprendimiento ha sido añadido correctamente al directorio",
       });
 
     } catch (error) {
       toast({
         title: "Error",
-        description: "Something went wrong. Please try again.",
+        description: "Algo salió mal. Por favor intenta de nuevo.",
         variant: "destructive"
       });
     } finally {
@@ -81,10 +81,10 @@ const RegistrationForm: React.FC = () => {
         {/* Section header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Register Your Business
+            Registra tu negocio
           </h2>
           <p className="text-xl text-gray-600">
-            Share your student venture with the community and connect with potential customers
+            Comparte tu emprendimiento con la comunidad y conecta con clientes potenciales
           </p>
         </div>
 
@@ -94,7 +94,7 @@ const RegistrationForm: React.FC = () => {
             {/* Business name input */}
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                Business Name *
+                Nombre de tu negocio *
               </label>
               <input
                 type="text"
@@ -102,7 +102,7 @@ const RegistrationForm: React.FC = () => {
                 name="name"
                 value={formData.name}
                 onChange={handleInputChange}
-                placeholder="Enter your business name"
+                placeholder="Tacos el sugus"
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors duration-200"
                 disabled={isSubmitting}
               />
@@ -111,7 +111,7 @@ const RegistrationForm: React.FC = () => {
             {/* Category selection */}
             <div>
               <label htmlFor="category" className="block text-sm font-medium text-gray-700 mb-2">
-                Category *
+                Categoría *
               </label>
               <select
                 id="category"
@@ -121,7 +121,7 @@ const RegistrationForm: React.FC = () => {
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors duration-200"
                 disabled={isSubmitting}
               >
-                <option value="">Select a category</option>
+                <option value="">Selecciona una categoría</option>
                 {categories.map(category => (
                   <option key={category} value={category}>
                     {category}
@@ -133,20 +133,20 @@ const RegistrationForm: React.FC = () => {
             {/* Description textarea */}
             <div>
               <label htmlFor="description" className="block text-sm font-medium text-gray-700 mb-2">
-                Description *
+                Descripción *
               </label>
               <textarea
                 id="description"
                 name="description"
                 value={formData.description}
                 onChange={handleInputChange}
-                placeholder="Describe your business, what you offer, and what makes you unique..."
+                placeholder="Describe tu negocio, que ofreces, y que es lo que te hace único..."
                 rows={4}
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors duration-200 resize-vertical"
                 disabled={isSubmitting}
               />
               <p className="text-sm text-gray-500 mt-1">
-                {formData.description.length}/500 characters
+                {formData.description.length}/500 char
               </p>
             </div>
 
@@ -161,7 +161,7 @@ const RegistrationForm: React.FC = () => {
                     : 'bg-gradient-to-r from-blue-600 to-purple-600 hover:shadow-lg transform hover:scale-105'
                 }`}
               >
-                {isSubmitting ? 'Registering...' : 'Register Business'}
+                {isSubmitting ? 'Registrando...' : 'Registrar Negocio'}
               </button>
             </div>
           </form>
@@ -169,8 +169,8 @@ const RegistrationForm: React.FC = () => {
           {/* Additional info */}
           <div className="mt-6 p-4 bg-blue-50 rounded-lg">
             <p className="text-sm text-blue-800">
-              <strong>Note:</strong> Your business will appear immediately in the directory after registration. 
-              Make sure all information is accurate before submitting.
+              <strong>Note:</strong> Tu negocio aparecerá inmediatamente después del registro. 
+              Asegúrate de que la información sea la correcta antes de envíar el formulario.
             </p>
           </div>
         </div>
