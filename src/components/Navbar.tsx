@@ -25,9 +25,14 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo/Title */}
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 flex items-center space-x-2">
+            <img
+              src="./logo.svg"               /* Ruta pública */
+              alt="Emprende UPIICSA logo"
+              className="h-10 w-10"
+            />
             <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Emprendedores UPIICSA
+              Emprende UPIICSA
             </h1>
           </div>
 

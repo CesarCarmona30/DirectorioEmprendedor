@@ -40,7 +40,7 @@ const Hero: React.FC<HeroProps> = ({ onGetStarted }) => {
           {/* Stats */}
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-2xl mx-auto">
             <div className="text-center animate-fade-in">
-              <div className="text-3xl font-bold text-blue-600">+20</div>
+              <div className="text-3xl font-bold text-blue-600">+15</div>
               <div className="text-gray-600">Negocios</div>
             </div>
             <div className="text-center animate-fade-in">
@@ -48,7 +48,7 @@ const Hero: React.FC<HeroProps> = ({ onGetStarted }) => {
               <div className="text-gray-600">Categorias</div>
             </div>
             <div className="text-center animate-fade-in">
-              <div className="text-3xl font-bold text-green-600">+200</div>
+              <div className="text-3xl font-bold text-green-600">+100</div>
               <div className="text-gray-600">Estudiantes conectados</div>
             </div>
           </div>
